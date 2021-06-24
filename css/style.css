@@ -1,0 +1,269 @@
+/*
+Page
+*/
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+iframe {
+    width: auto;
+    height: auto;
+}
+
+/*
+Navbar
+*/
+
+.navbar.navbar {
+    font-family: 'Chakra Petch', sans-serif;
+    transition: 0.5s;
+    padding: 1em 0;
+}
+
+.navbar .navbar-brand {
+    color: #f0f0f0;
+    transition: 0.3s;
+}
+
+.navbar .navbar-brand:hover {
+    color: #aa70cc;
+}
+
+.navbar.navbar .nav-link {
+    color: #f0f0f0;
+    transition: 0.3s;
+}
+
+.navbar.navbar .nav-link:hover {
+    color: #a3a3a3;
+}
+
+/* Different style when below header */
+.navbar-below {
+    background-color: #f0f0f0;
+}
+
+.navbar-below .navbar-brand {
+    color: #b058e2;
+    transition: 0.3s;
+}
+
+.navbar-below .navbar-brand:hover {
+    color: black;
+}
+
+.navbar.navbar-below .nav-link {
+    color: black;
+    transition: 0.3s;
+}
+
+.navbar.navbar-below .nav-link:hover {
+    color: #bc7de0;
+}
+
+/*
+Header
+*/
+
+#headImg {
+    background-image: url(../media/purple_bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+#headText {
+    text-align: center;
+    margin: 1em;
+}
+
+#headText h1 {
+    color: white;
+    font-size: 500%;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#headText h2 {
+    color: white;
+    font-size: 250%;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+/*
+Portfolio
+*/
+
+#portfolioCont {
+    width: 100%;
+}
+
+#portfolioPage {
+    background-color: #bc7de0;
+}
+
+#portEnd{
+    height: 3em;
+}
+
+#portHead {
+    text-align: center;
+    margin: 3em 0;
+    color: black;
+}
+
+.portfolio {
+    padding: 0;
+}
+
+.portfolio:hover {
+    cursor: pointer;
+}
+
+#portGrid .row {
+    margin: 0;
+}
+
+.portHover:hover {
+    opacity: 0.5;
+}
+
+.portHover {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    background-color: #bc7de0;
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+}
+
+/*
+Personal Information
+*/
+
+#aboutPage {
+    background-color: #f0f0f0;
+}
+
+#aboutHeader {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#aboutImg {
+    padding: 2em;
+    text-align: center;
+}
+
+#aboutImg img {
+    border: 10px solid #bc7de0;
+}
+
+/*
+Get in touch
+*/
+
+#contactPage {
+    background-color: #bc7de0;
+}
+
+#contactPage h1 {
+    margin-top: 1em;
+}
+
+#contact {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+#contact .btn {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: transparent;
+    font-size: 250%;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+#contact .btn i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+#contact .btn:hover {
+    background-color: #27c64f;
+    color: white;
+}
+
+#contact .btn:focus {
+    outline: none;
+}
+
+#email {
+    font-size: 90%;
+}
+
+form {
+    width:459px;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border-radius:5px;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+}
+
+textarea {
+    height:213px;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    background-color:purple;
+    color:white;
+}
+
+
+
+/*
+Media Queries
+*/
+
+@media (max-width: 575.98px) {
+    #headImg {
+        background-attachment: initial;
+    }
+    #headText h1 {
+        font-size: 250%;
+    }
+    #headText h2 {
+        font-size: 150%;
+    }
+ }
